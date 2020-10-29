@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:custom_microcontroller-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -842,7 +841,7 @@ U 1 1 5F9EF44A
 P 4000 3750
 F 0 "J1" H 3972 3682 50  0000 R CNN
 F 1 "Conn_01x05_Male" H 3972 3773 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 4000 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4000 3750 50  0001 C CNN
 F 3 "~" H 4000 3750 50  0001 C CNN
 	1    4000 3750
 	-1   0    0    1   
@@ -883,22 +882,12 @@ F 3 "" H 3550 3550 50  0001 C CNN
 $EndComp
 Text Notes 3500 3200 0    50   ~ 0
 Serial Wire Debug
-Wire Wire Line
-	2050 5200 2350 5200
-Wire Wire Line
-	2350 5200 2350 5400
 Text Label 9950 2150 2    50   ~ 0
 CAN_TX
 Text Label 9950 2250 2    50   ~ 0
 CAN_RX
 Wire Wire Line
-	2050 5100 2650 5100
-Wire Wire Line
-	2350 5200 2650 5200
-Wire Wire Line
-	2650 5200 2650 5100
-Connection ~ 2350 5200
-Connection ~ 2650 5100
+	2050 5100 2350 5100
 Wire Wire Line
 	2500 1500 2700 1500
 Wire Wire Line
@@ -941,7 +930,7 @@ U 1 1 5FAED602
 P 4100 1700
 F 0 "J4" H 4072 1582 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 4072 1673 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 4100 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 1700 50  0001 C CNN
 F 3 "~" H 4100 1700 50  0001 C CNN
 	1    4100 1700
 	-1   0    0    1   
@@ -1056,10 +1045,10 @@ Wire Wire Line
 Wire Wire Line
 	7250 3950 7400 3950
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J7
 U 1 1 5FC7FA16
 P 7600 4700
-F 0 "J?" H 7572 4582 50  0000 R CNN
+F 0 "J7" H 7572 4582 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 7572 4673 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7600 4700 50  0001 C CNN
 F 3 "~" H 7600 4700 50  0001 C CNN
@@ -1071,10 +1060,10 @@ Wire Wire Line
 Wire Wire Line
 	7250 4600 7400 4600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0136
 U 1 1 5FC7FA24
 P 7250 4750
-F 0 "#PWR?" H 7250 4500 50  0001 C CNN
+F 0 "#PWR0136" H 7250 4500 50  0001 C CNN
 F 1 "GND" H 7255 4577 50  0000 C CNN
 F 2 "" H 7250 4750 50  0001 C CNN
 F 3 "" H 7250 4750 50  0001 C CNN
@@ -1086,14 +1075,19 @@ Wire Wire Line
 Wire Wire Line
 	7250 4700 7400 4700
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0137
 U 1 1 5FC83D96
 P 7250 4500
-F 0 "#PWR?" H 7250 4350 50  0001 C CNN
+F 0 "#PWR0137" H 7250 4350 50  0001 C CNN
 F 1 "VCC" H 7200 4650 50  0000 L CNN
 F 2 "" H 7250 4500 50  0001 C CNN
 F 3 "" H 7250 4500 50  0001 C CNN
 	1    7250 4500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2350 5100 2350 5400
+Connection ~ 2350 5100
+Wire Wire Line
+	2350 5100 2650 5100
 $EndSCHEMATC

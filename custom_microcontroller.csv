@@ -1,0 +1,20 @@
+Reference, Quantity, Value, Footprint, Datasheet, Category, Digi-Key_PN,Price,DK_Total,LCSC_PN,LCSC_Price
+C10 C9 C1 ,3,100nF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,Ceramic Capacitor,1276-1099-1-ND,0.15,0.45,C49678,0.0106
+C11 C5 ,2,4.7uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,Ceramic Capacitor,1276-1244-1-ND,0.16,0.32,C1779,0.0172
+C3 C2 ,2,12pF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,Ceramic Capacitor,1276-2580-1-ND,0.21,0.42,C1792,0.0093
+C4 C7 ,2,10uF,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder,~,Tantalum Capacitor,399-3683-1-ND,0.51,1.02,C7171,0.1549
+C6 ,1,10nF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,Ceramic Capacitor,1276-1015-1-ND,0.15,0.15,C1710,0.0112
+C8 C12 ,2,1uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,Ceramic Capacitor,1276-6471-1-ND,0.15,0.3,C28323,0.0224
+D2 D1 ,2,GREEN,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,LED,160-1579-1-ND,0.57,1.14,C2293,0.0136
+J1 ,1,Conn_01x05_Male,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~,Pin Header Vertical,,,0,,
+J3 ,1,Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,Pin Header Vertical,,,0,,
+J4 J5 J2 J7 ,4,Conn_01x02_Male,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,Pin Header Vertical/Horizontal,,,0,,
+J6 ,1,Conn_01x06_Male,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,~,Pin Header Vertical,,,0,,
+R1 R2 ,2,47R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,SMD Resistor,RMCF0805FT47R0CT-ND,0.15,0.3,C17714,0.0035
+R3 ,1,270R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,SMD Resistor,RMCF0805FT270RCT-ND,0.15,0.15,C17590,0.0042
+R4 ,1,120R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,SMD Resistor,738-RMCF0805FT120RCT-ND,0.15,0.15,C17437,0.0027
+U1 ,1,NCP1117ST33T3G,Package_TO_SOT_SMD:SOT-223,https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF,Linear Voltage Regulator,NCP1117ST33T3GOSCT-ND,0.67,0.67,C26537,0.2515
+U2 ,1,STM32F042G6Ux,Package_DFN_QFN:QFN-28_4x4mm_P0.5mm,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf,STM32f042G6U6,497-17345-ND,4.18,4.18,,
+U3 ,1,SN65HVD233,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf,SN65HVD233,296-35967-1-ND,4.27,4.27,,
+Y1 ,1,Crystal_GND24,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,~,16MHz Oscillator,SER4069CT-ND,0.48,0.48,C90906,0.1389
+,,,,,,,,14,,
