@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\henry\Documents\embedded\stm32f042_microcontroller\custom_microcontroller.sch</source>
-    <date>29/10/2020 5:05:47 PM</date>
+    <date>30/10/2020 1:12:58 AM</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,17 +28,23 @@
       <tstamp>5F983673</tstamp>
     </comp>
     <comp ref="C10">
-      <value>100nF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C49678</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F985614</tstamp>
     </comp>
     <comp ref="C9">
-      <value>100nF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C49678</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F988714</tstamp>
@@ -47,14 +53,20 @@
       <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C1779</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F989A47</tstamp>
     </comp>
     <comp ref="C1">
-      <value>100nF</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C49678</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F98E11A</tstamp>
@@ -63,6 +75,9 @@
       <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C1779</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F98E12E</tstamp>
@@ -71,6 +86,9 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C1710</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F98F713</tstamp>
@@ -79,6 +97,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C28323</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F99076B</tstamp>
@@ -97,6 +118,7 @@
         <field name="MPN">NCP1117ST33T3G</field>
         <field name="Manufacturer">ON Semiconductor</field>
         <field name="Status">Active</field>
+        <field name="lcsc">C26537</field>
       </fields>
       <libsource lib="dk_PMIC-Voltage-Regulators-Linear" part="NCP1117ST33T3G" description="IC REG LINEAR 3.3V 1A SOT223"/>
       <sheetpath names="/" tstamps="/"/>
@@ -106,6 +128,9 @@
       <value>10uF</value>
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C7171</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9B216E</tstamp>
@@ -114,6 +139,9 @@
       <value>10uF</value>
       <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C7171</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9BC918</tstamp>
@@ -122,6 +150,9 @@
       <value>GREEN</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C2293</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9BFCDF</tstamp>
@@ -130,6 +161,9 @@
       <value>270</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C17590</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9C0D4B</tstamp>
@@ -138,6 +172,9 @@
       <value>GREEN</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C2293</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA774B6</tstamp>
@@ -146,6 +183,9 @@
       <value>47R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C17714</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA7F568</tstamp>
@@ -154,6 +194,9 @@
       <value>SN65HVD233</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf</datasheet>
+      <fields>
+        <field name="lcsc">C61643</field>
+      </fields>
       <libsource lib="Interface_CAN_LIN" part="SN65HVD233" description="CAN Bus Transceiver, 3.3V, 1Mbps, Loopback feature, SOIC-8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA6B35B</tstamp>
@@ -162,6 +205,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C28323</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA8FFB4</tstamp>
@@ -170,6 +216,9 @@
       <value>Crystal_GND24</value>
       <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C90906</field>
+      </fields>
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA0AD82</tstamp>
@@ -178,6 +227,9 @@
       <value>47R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C17714</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA1C518</tstamp>
@@ -186,6 +238,9 @@
       <value>12pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C1792</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA05883</tstamp>
@@ -194,6 +249,9 @@
       <value>12pF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C1792</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA04113</tstamp>
@@ -210,6 +268,9 @@
       <value>120R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="lcsc">C17437</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FABA175</tstamp>
